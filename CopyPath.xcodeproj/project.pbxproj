@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AC175B3D3AF096B03A6814A /* CopyPathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B5672450A12E4B9A42AB1F /* CopyPathApp.swift */; };
+		9F6ED74832A025A9CF344B26 /* FinderSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F56B919D37B5E8C79AB1166 /* FinderSync.swift */; };
+		AADE8947F32022BA1C8E3DE8 /* CopyPathExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D779C9C0DB92F7DCAE3ECE3E /* CopyPathExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F7425EA4AB25FEAC7C28D23A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F0321FAAB7D9A62F5C9AF6 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0C5D7BA8288D215FDC4CF49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6AC19AE3B90D6D5830C3728 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66DF66E23845D0EEF3774F51;
+			remoteInfo = CopyPathExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BBAC7CD7ED0A882F07B7008E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AADE8947F32022BA1C8E3DE8 /* CopyPathExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		73B5672450A12E4B9A42AB1F /* CopyPathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyPathApp.swift; sourceTree = "<group>"; };
+		7F56B919D37B5E8C79AB1166 /* FinderSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderSync.swift; sourceTree = "<group>"; };
+		899A125269D9AF6F3118B39E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9AB4279CB0B1CF2BFF29BA03 /* CopyPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopyPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA59A029B62AD5E5FCFC47C6 /* CopyPathExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CopyPathExtension.entitlements; sourceTree = "<group>"; };
+		B694208D740B166BBC53B7CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BB5B9759BE65D9603D620B06 /* CopyPath.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CopyPath.entitlements; sourceTree = "<group>"; };
+		D779C9C0DB92F7DCAE3ECE3E /* CopyPathExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CopyPathExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6F0321FAAB7D9A62F5C9AF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4C7559AFD753622844E5551F /* CopyPathExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AA59A029B62AD5E5FCFC47C6 /* CopyPathExtension.entitlements */,
+				7F56B919D37B5E8C79AB1166 /* FinderSync.swift */,
+				899A125269D9AF6F3118B39E /* Info.plist */,
+			);
+			path = CopyPathExtension;
+			sourceTree = "<group>";
+		};
+		69C931E10B0433E706F0F2FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AB4279CB0B1CF2BFF29BA03 /* CopyPath.app */,
+				D779C9C0DB92F7DCAE3ECE3E /* CopyPathExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B0CC3AA01216B2561FFB902 = {
+			isa = PBXGroup;
+			children = (
+				98A24FAF05EA3E2B63AE78B1 /* CopyPath */,
+				4C7559AFD753622844E5551F /* CopyPathExtension */,
+				69C931E10B0433E706F0F2FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98A24FAF05EA3E2B63AE78B1 /* CopyPath */ = {
+			isa = PBXGroup;
+			children = (
+				E6F0321FAAB7D9A62F5C9AF6 /* ContentView.swift */,
+				BB5B9759BE65D9603D620B06 /* CopyPath.entitlements */,
+				73B5672450A12E4B9A42AB1F /* CopyPathApp.swift */,
+				B694208D740B166BBC53B7CD /* Info.plist */,
+			);
+			path = CopyPath;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66DF66E23845D0EEF3774F51 /* CopyPathExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0D4F20F565879F2AD45190 /* Build configuration list for PBXNativeTarget "CopyPathExtension" */;
+			buildPhases = (
+				75869328C5870B4D227B820B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CopyPathExtension;
+			packageProductDependencies = (
+			);
+			productName = CopyPathExtension;
+			productReference = D779C9C0DB92F7DCAE3ECE3E /* CopyPathExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		997F623E392DDEEFD5C9B6AF /* CopyPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A45EC80F646CEFE60AF5F71 /* Build configuration list for PBXNativeTarget "CopyPath" */;
+			buildPhases = (
+				E615983B1506F862908711FB /* Sources */,
+				BBAC7CD7ED0A882F07B7008E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3EC9D3FCAB4C5B4129BDFA1 /* PBXTargetDependency */,
+			);
+			name = CopyPath;
+			packageProductDependencies = (
+			);
+			productName = CopyPath;
+			productReference = 9AB4279CB0B1CF2BFF29BA03 /* CopyPath.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6AC19AE3B90D6D5830C3728 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 7137926433A0CAE212E216D2 /* Build configuration list for PBXProject "CopyPath" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8B0CC3AA01216B2561FFB902;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 69C931E10B0433E706F0F2FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				997F623E392DDEEFD5C9B6AF /* CopyPath */,
+				66DF66E23845D0EEF3774F51 /* CopyPathExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75869328C5870B4D227B820B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6ED74832A025A9CF344B26 /* FinderSync.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E615983B1506F862908711FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7425EA4AB25FEAC7C28D23A /* ContentView.swift in Sources */,
+				5AC175B3D3AF096B03A6814A /* CopyPathApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3EC9D3FCAB4C5B4129BDFA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66DF66E23845D0EEF3774F51 /* CopyPathExtension */;
+			targetProxy = C0C5D7BA8288D215FDC4CF49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		073A3557E518CC034C8FA33E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CopyPathExtension/CopyPathExtension.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CopyPathExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.engagendy.copypath.extension;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		21E7A5D9D0ABF0C92CC17593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		22CAE71EAC996994DCF54220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CopyPathExtension/CopyPathExtension.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CopyPathExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.engagendy.copypath.extension;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		67C7F203EFA527B2C147EC4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CopyPath/CopyPath.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CopyPath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.engagendy.copypath;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9D1C5854013BA778E8C49386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		FF7F4DD44714D1AA250E83EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CopyPath/CopyPath.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CopyPath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.engagendy.copypath;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A45EC80F646CEFE60AF5F71 /* Build configuration list for PBXNativeTarget "CopyPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7F4DD44714D1AA250E83EC /* Debug */,
+				67C7F203EFA527B2C147EC4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7137926433A0CAE212E216D2 /* Build configuration list for PBXProject "CopyPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D1C5854013BA778E8C49386 /* Debug */,
+				21E7A5D9D0ABF0C92CC17593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DE0D4F20F565879F2AD45190 /* Build configuration list for PBXNativeTarget "CopyPathExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22CAE71EAC996994DCF54220 /* Debug */,
+				073A3557E518CC034C8FA33E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6AC19AE3B90D6D5830C3728 /* Project object */;
+}

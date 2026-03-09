@@ -1,0 +1,48 @@
+name: CopyPath
+options:
+  deploymentTarget:
+    macOS: "13.0"
+  xcodeVersion: "15.0"
+  bundleIdPrefix: com.engagendy
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MACOSX_DEPLOYMENT_TARGET: "13.0"
+
+targets:
+  CopyPath:
+    type: application
+    platform: macOS
+    sources:
+      - CopyPath
+    info:
+      path: CopyPath/Info.plist
+    entitlements:
+      path: CopyPath/CopyPath.entitlements
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.engagendy.copypath
+        INFOPLIST_FILE: CopyPath/Info.plist
+        CODE_SIGN_ENTITLEMENTS: CopyPath/CopyPath.entitlements
+        GENERATE_INFOPLIST_FILE: false
+    dependencies:
+      - target: CopyPathExtension
+
+  CopyPathExtension:
+    type: app-extension
+    product: com.apple.product-type.finder-sync-extension
+    platform: macOS
+    sources:
+      - CopyPathExtension
+    info:
+      path: CopyPathExtension/Info.plist
+    entitlements:
+      path: CopyPathExtension/CopyPathExtension.entitlements
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.engagendy.copypath.extension
+        INFOPLIST_FILE: CopyPathExtension/Info.plist
+        CODE_SIGN_ENTITLEMENTS: CopyPathExtension/CopyPathExtension.entitlements
+        GENERATE_INFOPLIST_FILE: false
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks"
